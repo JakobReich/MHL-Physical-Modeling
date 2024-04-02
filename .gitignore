@@ -1,0 +1,8 @@
+# ignore all sound files
+*.wav
+*.aif
+*.aiff
+*.wave
+*.mp3
+*.mp4a
+*.flac
