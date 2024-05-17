@@ -40,12 +40,60 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-25",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 583.088233232498169, 227.0, 73.0, 22.0 ],
+					"text" : "clip 0. 0.999"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-23",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 250.666666666666629, 345.0, 42.0, 22.0 ],
+					"text" : "reload"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-19",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 431.0, 345.0, 42.0, 22.0 ],
+					"text" : "reload"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 406.666666666666629, 32.0, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-55",
 					"linecount" : 10,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 708.088221788406372, 359.55881667137146, 231.617645502090454, 144.0 ],
+					"patching_rect" : [ 708.088221788406372, 359.55881667137146, 232.0, 144.0 ],
 					"text" : "What is the effect of the AP filter? An AP filter is a phase rotator. In stiff strings, like piano strings, the higher frequencies travel fatser than the lower frequencies along the length of the string.\nWith AP filters, we can rotate the phases of the higher frequencies forward so that they arive to the listener quicker ... simulating the faster velocity (phase velocity) of higher frequencies."
 				}
 
@@ -58,7 +106,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 586.029400587081909, 619.411753177642822, 139.0, 48.0 ],
-					"presentation_linecount" : 5,
 					"text" : "spectroscope\ninspector\ndisplay mode: sonogram"
 				}
 
@@ -118,11 +165,23 @@
 					"patching_rect" : [ 583.088233232498169, 118.0, 100.0, 40.0 ],
 					"preset_data" : [ 						{
 							"number" : 1,
-							"data" : [ 4, "obj-12", "function", "clear", 7, "obj-12", "function", "add", 0.0, 0.0, 0, 7, "obj-12", "function", "add", 8.156028368794347, 0.973333333333333, 0, 7, "obj-12", "function", "add", 16.134751773049665, 0.24, 0, 7, "obj-12", "function", "add", 52.304964539007116, 0.066666666666667, 0, 7, "obj-12", "function", "add", 100.0, 0.0, 0, 5, "obj-12", "function", "domain", 100.0, 6, "obj-12", "function", "range", 0.0, 1.0, 5, "obj-12", "function", "mode", 0, 5, "obj-20", "toggle", "int", 0, 5, "obj-22", "live.gain~", "float", -5.44444465637207, 5, "obj-27", "flonum", "float", 405.0, 5, "obj-31", "flonum", "float", 0.99099999666214, 5, "obj-37", "live.dial", "float", 0.99099999666214, 5, "obj-39", "live.gain~", "float", 0.0, 5, "obj-40", "flonum", "float", 0.990000009536743, 5, "obj-44", "flonum", "float", 1.100000023841858 ]
+							"data" : [ 4, "obj-12", "function", "clear", 7, "obj-12", "function", "add", 0.0, 0.0, 0, 7, "obj-12", "function", "add", 8.156028368794347, 0.973333333333333, 0, 7, "obj-12", "function", "add", 15.602836879432644, 0.2, 0, 7, "obj-12", "function", "add", 52.304964539007116, 0.066666666666667, 0, 7, "obj-12", "function", "add", 100.0, 0.0, 0, 5, "obj-12", "function", "domain", 100.0, 6, "obj-12", "function", "range", 0.0, 1.0, 5, "obj-12", "function", "mode", 0, 5, "obj-20", "toggle", "int", 1, 5, "obj-22", "live.gain~", "float", -30.503936767578125, 5, "obj-27", "flonum", "float", 276.0, 5, "obj-31", "flonum", "float", 1.353000044822693, 5, "obj-37", "live.dial", "float", 0.99099999666214, 5, "obj-39", "live.gain~", "float", -29.307086944580078, 5, "obj-40", "flonum", "float", 0.990000009536743, 5, "obj-44", "flonum", "float", 1.210000038146973, 5, "obj-6", "number", "int", 1000 ]
 						}
 , 						{
 							"number" : 2,
-							"data" : [ 4, "obj-12", "function", "clear", 7, "obj-12", "function", "add", 0.0, 0.0, 0, 7, "obj-12", "function", "add", 8.156028368794347, 0.973333333333333, 0, 7, "obj-12", "function", "add", 16.134751773049665, 0.24, 0, 7, "obj-12", "function", "add", 52.304964539007116, 0.066666666666667, 0, 7, "obj-12", "function", "add", 100.0, 0.0, 0, 5, "obj-12", "function", "domain", 100.0, 6, "obj-12", "function", "range", 0.0, 1.0, 5, "obj-12", "function", "mode", 0, 5, "obj-20", "toggle", "int", 0, 5, "obj-22", "live.gain~", "float", -5.44444465637207, 5, "obj-27", "flonum", "float", 389.20001220703125, 5, "obj-31", "flonum", "float", 0.763779520988464, 5, "obj-37", "live.dial", "float", 0.763779520988464, 5, "obj-39", "live.gain~", "float", 0.0, 5, "obj-40", "flonum", "float", 0.800000011920929, 5, "obj-44", "flonum", "float", 7.900000095367432 ]
+							"data" : [ 4, "obj-12", "function", "clear", 7, "obj-12", "function", "add", 0.0, 0.0, 0, 7, "obj-12", "function", "add", 8.156028368794347, 0.973333333333333, 0, 7, "obj-12", "function", "add", 16.134751773049665, 0.24, 0, 7, "obj-12", "function", "add", 52.304964539007116, 0.066666666666667, 0, 7, "obj-12", "function", "add", 100.0, 0.0, 0, 5, "obj-12", "function", "domain", 100.0, 6, "obj-12", "function", "range", 0.0, 1.0, 5, "obj-12", "function", "mode", 0, 5, "obj-20", "toggle", "int", 1, 5, "obj-22", "live.gain~", "float", -23.177778244018555, 5, "obj-27", "flonum", "float", 389.20001220703125, 5, "obj-31", "flonum", "float", 1.0, 5, "obj-37", "live.dial", "float", 1.0, 5, "obj-39", "live.gain~", "float", -22.890295028686523, 5, "obj-40", "flonum", "float", 0.800000011920929, 5, "obj-44", "flonum", "float", 7.900000095367432, 5, "obj-6", "number", "int", 1000 ]
+						}
+, 						{
+							"number" : 3,
+							"data" : [ 4, "obj-12", "function", "clear", 7, "obj-12", "function", "add", 0.0, 0.0, 0, 7, "obj-12", "function", "add", 8.156028368794347, 0.973333333333333, 0, 7, "obj-12", "function", "add", 16.134751773049665, 0.24, 0, 7, "obj-12", "function", "add", 52.304964539007116, 0.066666666666667, 0, 7, "obj-12", "function", "add", 100.0, 0.0, 0, 5, "obj-12", "function", "domain", 100.0, 6, "obj-12", "function", "range", 0.0, 1.0, 5, "obj-12", "function", "mode", 0, 5, "obj-20", "toggle", "int", 1, 5, "obj-22", "live.gain~", "float", -20.663341522216797, 5, "obj-27", "flonum", "float", 49.0, 5, "obj-31", "flonum", "float", 1.0, 5, "obj-37", "live.dial", "float", 1.0, 5, "obj-39", "live.gain~", "float", -25.508754730224609, 5, "obj-40", "flonum", "float", 0.233999997377396, 5, "obj-44", "flonum", "float", 739.0, 5, "obj-6", "number", "int", 1000 ]
+						}
+, 						{
+							"number" : 4,
+							"data" : [ 4, "obj-12", "function", "clear", 7, "obj-12", "function", "add", 0.0, 0.0, 0, 7, "obj-12", "function", "add", 12.411347517730517, 0.08, 0, 7, "obj-12", "function", "add", 20.921985815602856, 0.146666666666667, 0, 7, "obj-12", "function", "add", 35.815602836879457, 0.4, 0, 7, "obj-12", "function", "add", 51.241134751773075, 0.573333333333333, 0, 7, "obj-12", "function", "add", 79.964539007092228, 0.386666666666667, 0, 7, "obj-12", "function", "add", 100.0, 0.0, 0, 5, "obj-12", "function", "domain", 100.0, 6, "obj-12", "function", "range", 0.0, 1.0, 5, "obj-12", "function", "mode", 0, 5, "obj-20", "toggle", "int", 1, 5, "obj-22", "live.gain~", "float", -31.621871948242188, 5, "obj-27", "flonum", "float", 54.0, 5, "obj-31", "flonum", "float", 5.800000190734863, 5, "obj-37", "live.dial", "float", 1.0, 5, "obj-39", "live.gain~", "float", -25.508754730224609, 5, "obj-40", "flonum", "float", 0.99099999666214, 5, "obj-44", "flonum", "float", 578.0, 5, "obj-6", "number", "int", 1992 ]
+						}
+, 						{
+							"number" : 5,
+							"data" : [ 4, "obj-12", "function", "clear", 7, "obj-12", "function", "add", 0.0, 0.0, 0, 7, "obj-12", "function", "add", 11.347517730496474, 0.413333333333333, 0, 7, "obj-12", "function", "add", 32.624113475177325, 0.053333333333333, 0, 7, "obj-12", "function", "add", 70.921985815602866, 0.053333333333333, 0, 7, "obj-12", "function", "add", 100.0, 0.0, 0, 5, "obj-12", "function", "domain", 100.0, 6, "obj-12", "function", "range", 0.0, 1.0, 5, "obj-12", "function", "mode", 0, 5, "obj-20", "toggle", "int", 1, 5, "obj-22", "live.gain~", "float", -31.621871948242188, 5, "obj-27", "flonum", "float", 385.0, 5, "obj-31", "flonum", "float", 1.820000052452087, 5, "obj-37", "live.dial", "float", 1.0, 5, "obj-39", "live.gain~", "float", -25.508754730224609, 5, "obj-40", "flonum", "float", 0.99099999666214, 5, "obj-44", "flonum", "float", 578.0, 5, "obj-6", "number", "int", 1992 ]
 						}
  ]
 				}
@@ -135,7 +194,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 794.941171646118164, 227.0, 107.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "sample delay (AP)"
 				}
 
@@ -171,8 +229,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 635.088233232498169, 227.0, 104.0, 20.0 ],
-					"presentation_linecount" : 3,
+					"patching_rect" : [ 635.088233232498169, 203.0, 104.0, 20.0 ],
 					"text" : "Allpass coefficient"
 				}
 
@@ -186,7 +243,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 583.088233232498169, 225.0, 50.0, 22.0 ]
+					"patching_rect" : [ 583.088233232498169, 203.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -198,7 +255,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 583.088233232498169, 255.0, 41.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"text" : "AP $1"
 				}
 
@@ -239,7 +295,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 406.666666666666629, 380.617645502090454, 173.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"text" : "gen~ 240430_stiff.string.AP.LP"
 				}
 
@@ -455,7 +510,7 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints" : [ 0.0, 0.0, 0, 8.156028368794347, 0.973333333333333, 0, 16.134751773049665, 0.24, 0, 52.304964539007116, 0.066666666666667, 0, 100.0, 0.0, 0 ],
+					"addpoints" : [ 0.0, 0.0, 0, 11.347517730496474, 0.413333333333333, 0, 32.624113475177325, 0.053333333333333, 0, 70.921985815602866, 0.053333333333333, 0, 100.0, 0.0, 0 ],
 					"domain" : 100.0,
 					"id" : "obj-12",
 					"maxclass" : "function",
@@ -649,6 +704,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-38", 0 ],
+					"source" : [ "obj-19", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-18", 0 ],
 					"midpoints" : [ 383.5, 60.0, 309.0, 60.0, 309.0, 63.0, 307.166666666666629, 63.0 ],
 					"source" : [ "obj-20", 0 ]
@@ -681,6 +743,13 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-21", 0 ],
+					"source" : [ "obj-23", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-21", 0 ],
 					"midpoints" : [ 341.5, 288.0, 237.0, 288.0, 237.0, 294.0, 234.166666666666629, 294.0 ],
 					"order" : 1,
 					"source" : [ "obj-24", 0 ]
@@ -693,6 +762,13 @@
 					"midpoints" : [ 341.5, 288.143344402313232, 416.166666666666629, 288.143344402313232 ],
 					"order" : 0,
 					"source" : [ "obj-24", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-41", 0 ],
+					"source" : [ "obj-25", 0 ]
 				}
 
 			}
@@ -792,7 +868,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-41", 0 ],
+					"destination" : [ "obj-25", 0 ],
 					"source" : [ "obj-40", 0 ]
 				}
 
@@ -824,6 +900,14 @@
 				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
 					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-18", 1 ],
+					"midpoints" : [ 416.166666666666629, 61.0, 366.0, 61.0, 366.0, 63.0, 357.166666666666629, 63.0 ],
+					"source" : [ "obj-6", 0 ]
 				}
 
 			}
