@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-8",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1297.0, 141.0, 153.0, 62.0 ],
+					"text" : "this curve represents the pressure of air through the flute mouthpiece\n(it isn't an ADSR-curve)"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-98",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -293,7 +305,7 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints" : [ 0.0, 0.0, 0, 63.82978013059266, 0.626666666666667, 0, 260.6382688665866, 0.36, 0, 686.170136403870629, 0.186666666666667, 0, 999.999888712617121, 0.0, 0 ],
+					"addpoints" : [ 0.0, 0.0, 0, 15.957446808510639, 0.893333333333333, 0, 79.787234042553195, 0.746666666666667, 0, 930.851063829787222, 0.733333333333333, 0, 999.999888712617121, 0.0, 0 ],
 					"id" : "obj-63",
 					"maxclass" : "function",
 					"numinlets" : 1,

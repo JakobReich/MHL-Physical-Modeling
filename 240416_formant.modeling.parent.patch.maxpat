@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 803.0, 84.0, 699.0, 697.0 ],
+		"rect" : [ 795.0, 84.0, 699.0, 697.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -103,7 +103,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 965.0, 292.0, 287.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : ">1. raises Q (resonance), sharpens filter skirtwidth"
 				}
 
@@ -495,7 +494,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 361.0, 326.0, 150.0, 119.0 ],
-					"presentation_linecount" : 6,
 					"text" : ";\r\none.vowel 1 350 0 60;\r\none.vowel 2 2000 -20 100;\r\none.vowel 3 2800 -15 120;\r\none.vowel 4 3600 -40 150;\r\none.vowel 5 3950 -56 200;\r\n"
 				}
 
@@ -509,7 +507,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 361.0, 201.0, 150.0, 119.0 ],
-					"presentation_linecount" : 6,
 					"text" : ";\r\none.vowel 1 350 0 40;\r\none.vowel 2 600 -20 80;\r\none.vowel 3 2400 -32 100;\r\none.vowel 4 2675 -28 120;\r\none.vowel 5 2950 -36 120;\r\n"
 				}
 
@@ -614,8 +611,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 209.0, 237.0, 42.0, 22.0 ],
-					"text" : "$f1 20"
+					"patching_rect" : [ 209.0, 237.0, 45.0, 22.0 ],
+					"text" : "$f1 20."
 				}
 
 			}
