@@ -40,6 +40,90 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-42",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 379.0, 432.21052622795105, 83.0, 20.0 ],
+					"presentation_linecount" : 2,
+					"text" : "RESONATOR"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-34",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 721.058837175369263, 417.21052622795105, 84.941177427768707, 48.0 ],
+					"presentation_linecount" : 5,
+					"text" : "access in the Z-direction (up and down)"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-24",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 494.0, 432.21052622795105, 41.0, 20.0 ],
+					"presentation_linecount" : 2,
+					"text" : "object"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-17",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 379.0, 270.21052622795105, 91.0, 20.0 ],
+					"presentation_linecount" : 4,
+					"text" : "CONTROLLER"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-14",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 443.0, 329.746238887310028, 49.0, 20.0 ],
+					"presentation_linecount" : 2,
+					"text" : "(object)"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 473.588236570358276, 270.21052622795105, 43.0, 20.0 ],
+					"text" : "(force)"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 379.0, 329.746238887310028, 62.0, 20.0 ],
+					"presentation_linecount" : 3,
+					"text" : "EXCITOR"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-100",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -663,7 +747,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 494.0, 361.746238887310028, 32.0, 20.0 ],
+					"patching_rect" : [ 494.0, 368.746238887310028, 32.0, 20.0 ],
 					"text" : "verb"
 				}
 
@@ -1332,7 +1416,7 @@
 						"pitch" : 123.4708251953125,
 						"pitch-parameter" : "size",
 						"poisson" : 0.300000011920929,
-						"thickness" : 0.008426771499217,
+						"thickness" : 0.009999999776483,
 						"young" : [ 1.0, 9.0 ]
 					}
 ,

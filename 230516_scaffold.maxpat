@@ -44,7 +44,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 17.0, 56.0, 87.0, 22.0 ],
+					"patching_rect" : [ 17.0, 56.0, 111.0, 22.0 ],
 					"text" : "230530_midiin"
 				}
 
@@ -66,7 +66,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 130.0, 23.0, 53.0, 20.0 ],
+					"patching_rect" : [ 135.0, 21.0, 53.0, 20.0 ],
 					"text" : "IN patch"
 				}
 
@@ -88,7 +88,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 17.0, 21.0, 104.0, 22.0 ],
+					"patching_rect" : [ 17.0, 21.0, 111.0, 22.0 ],
 					"text" : "230516_sound_in"
 				}
 
@@ -97,21 +97,21 @@
 		"lines" : [  ],
 		"dependency_cache" : [ 			{
 				"name" : "230516_sound_in.maxpat",
-				"bootpath" : "~/Documents/Studium/Schulmusik/Sound Art/Max-Louis-Goldford-",
+				"bootpath" : "~/Documents/Studium/Schulmusik/Sound Art/MHL-Physical-Modeling",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "230516_sound_out.maxpat",
-				"bootpath" : "~/Documents/Studium/Schulmusik/Sound Art/Max-Louis-Goldford-",
+				"bootpath" : "~/Documents/Studium/Schulmusik/Sound Art/MHL-Physical-Modeling",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "230530_midiin.maxpat",
-				"bootpath" : "~/Documents/Studium/Schulmusik/Sound Art/Max-Louis-Goldford-",
+				"bootpath" : "~/Documents/Studium/Schulmusik/Sound Art/MHL-Physical-Modeling",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
