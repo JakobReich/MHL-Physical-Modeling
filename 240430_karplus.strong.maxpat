@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 166.0, 100.0, 1245.0, 666.0 ],
+		"rect" : [ 35.0, 84.0, 1468.0, 705.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,29 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-13",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 841.0, 64.0, 31.0, 22.0 ],
+					"text" : "pipe"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 0,
+					"patching_rect" : [ 156.0, 519.117637157440186, 55.0, 22.0 ],
+					"text" : "dac~ 1 2"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-25",
 					"maxclass" : "newobj",
@@ -94,7 +117,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 708.088221788406372, 359.55881667137146, 232.0, 144.0 ],
-					"text" : "What is the effect of the AP filter? An AP filter is a phase rotator. In stiff strings, like piano strings, the higher frequencies travel fatser than the lower frequencies along the length of the string.\nWith AP filters, we can rotate the phases of the higher frequencies forward so that they arive to the listener quicker ... simulating the faster velocity (phase velocity) of higher frequencies."
+					"text" : "What is the effect of the AP filter? An AP filter is a phase rotator. In stiff strings, like piano strings, the higher frequencies travel faster than the lower frequencies along the length of the string.\nWith AP filters, we can rotate the phases of the higher frequencies forward so that they arive to the listener quicker ... simulating the faster velocity (phase velocity) of higher frequencies."
 				}
 
 			}
@@ -123,13 +146,17 @@
 			}
 , 			{
 				"box" : 				{
+					"fgcolor" : [ 0.909803921568627, 0.807843137254902, 0.807843137254902, 1.0 ],
 					"id" : "obj-50",
+					"markercolor" : [ 1.0, 0.898039215686275, 0.0, 1.0 ],
 					"maxclass" : "spectroscope~",
+					"monochrome" : 0,
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 406.666666666666629, 619.411753177642822, 173.0, 86.0 ],
-					"sono" : 1
+					"sono" : 1,
+					"sonomedlocolor" : [ 1.0, 0.576470588235294, 0.0, 1.0 ]
 				}
 
 			}
@@ -510,7 +537,7 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints" : [ 0.0, 0.0, 0, 11.347517730496474, 0.413333333333333, 0, 32.624113475177325, 0.053333333333333, 0, 70.921985815602866, 0.053333333333333, 0, 100.0, 0.0, 0 ],
+					"addpoints" : [ 0.0, 0.0, 0, 7.624113475177325, 0.746666666666667, 0, 16.134751773049665, 0.24, 0, 52.304964539007116, 0.066666666666667, 0, 100.0, 0.0, 0 ],
 					"domain" : 100.0,
 					"id" : "obj-12",
 					"maxclass" : "function",
@@ -726,6 +753,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-1", 1 ],
+					"order" : 2,
+					"source" : [ "obj-22", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"order" : 3,
+					"source" : [ "obj-22", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
 					"order" : 1,
 					"source" : [ "obj-22", 0 ]
@@ -815,6 +858,22 @@
 				"patchline" : 				{
 					"destination" : [ "obj-39", 0 ],
 					"source" : [ "obj-38", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 1 ],
+					"order" : 4,
+					"source" : [ "obj-39", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"order" : 5,
+					"source" : [ "obj-39", 0 ]
 				}
 
 			}
